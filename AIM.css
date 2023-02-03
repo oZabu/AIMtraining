@@ -1,5 +1,6 @@
 body {
-    background: black;
+    background: linear-gradient(to right, rgb(9, 11, 23), rgb(20, 25, 45), rgb(9, 11, 23));
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 ._height {
@@ -24,14 +25,24 @@ body {
 }
 
 ._target {
-    height: 70px;
-    width: 70px;
-    background: red;
+    height: 60px;
+    width: 60px;
+    background: rgb(240, 200, 100);
     border-radius: 60px 60px 60px 60px;
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px #ab7e0d;
 }
 
 ._target:active {
-    background: blue;
-    box-shadow: 0px 0px 10px blue;
+    background: rgb(100, 100, 200);
+    box-shadow: 0px 0px 10px rgb(100, 100, 200);
+}
+
+.difficulty {
+    height: 30px;
+    width: 80px;
+    background: linear-gradient(to right, rgb(36, 44, 75), rgb(25, 34, 88));
+    border-radius: 60px 60px 60px 60px;
+    color: rgb(240, 200, 100);
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
