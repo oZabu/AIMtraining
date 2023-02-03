@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIM練習</title>
     <link rel="stylesheet" href="AIM.css">
-    <link rel="icon"
-        href="https://user-images.githubusercontent.com/83933546/141710674-e9328f74-be0f-4163-bcac-785a840d4be3.png">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <script src="AIM.js"></script>
+    <input type="button" id="hard" value="Hard" class="difficulty" onclick="HardB()">
+    <input type="button" id="normal" value="Normal" class="difficulty" onclick="NormalB()">
+    <input type="button" id="easy" value="Easy" class="difficulty" onclick="EasyB()">
 
     <div class="_height" id="_height"></div>
     <div class="_row">
@@ -21,7 +24,7 @@
         <input type="button" class="_target" id="_target">
     </div>
     </div>
-
+    <script src="AIM.js"></script>
 </body>
 
 </html>
